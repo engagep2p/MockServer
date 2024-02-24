@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.associations": {
+      ".eslintrc.js": "javascript"
+    },
+    "explorer.excludeGitIgnore": false
+  }
+}

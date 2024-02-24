@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "lib": ["dom", "esnext", "esnext.asynciterable"],
+    "allowJs": true,
+    "emitDeclarationOnly": true,
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": false,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "declarationMap": false,
+    "pretty": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "baseUrl": "./src",
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "paths": {
+      "@src/*": ["./*"],
+      "@lib/*": ["./lib/*"],
+      "@types": ["./types"],
+      "@config": ["./config"],
+      "$common/*": ["./common/*"]
+    }
+  },
+  "include": ["**/*.ts", "src/prisma/seed._ts"],
+  "exclude": ["node_modules", "dist", "build", "tests"]
+}
+
